@@ -1,0 +1,87 @@
+https://obc-service-broker-prod.mybluemix.net/v2/swagger/275f58c4-024a-4d8c-bfb0-9af1d6fdb312
+
+
+POST /registrar
+{
+  "enrollId": "user_type1_738add3c2a",
+  "enrollSecret": "b1f83404d3"
+}
+
+POST /chaincode DeploySpec
+
+{
+    "jsonrpc": "2.0",
+    "method": "deploy",
+    "params": {
+        "type": 1,
+        "chaincodeID": {
+            "path": "https://github.com/ibm-blockchain/learn-chaincode/finished"
+        },
+        "ctorMsg": {
+            "function": "init",
+            "args": [
+                "hi there"
+            ]
+        },
+        "secureContext": "user_type1_738add3c2a"
+    },
+    "id": 1
+}
+
+    "message": "95914b788029573695e31d98072a14343b6bbe10b7bf9cce3298db0ebfcf477324c6b7b07867b4439c0918fba1c0d7e725bc06f90f081f21a72f430dae9cbea6"
+
+POST /chaincode Query
+
+
+    {
+    "jsonrpc": "2.0",
+    "method": "query",
+    "params": {
+        "type": 1,
+        "chaincodeID": {
+            "name": "95914b788029573695e31d98072a14343b6bbe10b7bf9cce3298db0ebfcf477324c6b7b07867b4439c0918fba1c0d7e725bc06f90f081f21a72f430dae9cbea6"
+        },
+        "ctorMsg": {
+            "function": "read",
+            "args": [
+                "hello_world"
+            ]
+        },
+        "secureContext": "user_type1_738add3c2a"
+    },
+    "id": 2
+}
+
+RESPONSE
+{
+  "jsonrpc": "2.0",
+  "result": {
+    "status": "OK",
+    "message": "hi there"
+  },
+  "id": 2
+}
+
+
+POST /chaincode invoke
+
+
+{
+    "jsonrpc": "2.0",
+    "method": "invoke",
+    "params": {
+        "type": 1,
+        "chaincodeID": {
+            "name": "95914b788029573695e31d98072a14343b6bbe10b7bf9cce3298db0ebfcf477324c6b7b07867b4439c0918fba1c0d7e725bc06f90f081f21a72f430dae9cbea6"
+        },
+        "ctorMsg": {
+            "function": "write",
+            "args": [
+                "hello_world",
+                "go away"
+            ]
+        },
+        "secureContext": "user_type1_738add3c2a"
+    },
+    "id": 3
+}
