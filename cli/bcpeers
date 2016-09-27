@@ -1,1 +1,1 @@
-curl 10.0.2.15:5000/network/peers
+curl localhost:7050/network/peers

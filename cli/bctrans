@@ -1,1 +1,1 @@
-curl 10.0.2.15:5000/transactions/$1
+curl localhost:7050/transactions/$1
