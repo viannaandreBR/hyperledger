@@ -98,19 +98,9 @@ var options = {
 		git_url: 'https://github.com/ibm-blockchain/marbles-chaincode/part2'
     }
     
-    /*
-    chaincode:{
-            zip_url: 'https://github.com/plucena/learn-chaincode/archive/master.zip',
-            unzip_dir: 'learn-chaincode-master/finished',
-            git_url: 'https://github.com/plucena/learn-chaincode/finished'
-        }
-    */      
-};
-
-
-// Load the Marbles2 chaincode, with defined options, and return call-back-when-ready function.
+  
+// Load  chaincode, with defined options, and return call-back-when-ready function.
 ibc.load(options, cb_ready);
-//var chaincodeid = "d827db009bcbfd840b2197345d878a6fad03f375e7d6191f7ed12e169f23ee3c9baaa02d06d3c6bf30b29a621c0345bbad90cb048fbcacc0949bcf29168065de";
 var chaincodeid = "95914b788029573695e31d98072a14343b6bbe10b7bf9cce3298db0ebfcf477324c6b7b07867b4439c0918fba1c0d7e725bc06f90f081f21a72f430dae9cbea6";
 var userid = "admin";
 var usersecret = "fd7dcaa70e";
@@ -121,12 +111,6 @@ var usersecret = "fd7dcaa70e";
 function cb_ready(err, cc){
 	//response has chaincode functions
 	
-	/*
-	ibc.read_block('read', ['demo_marble'], chaincodeid, userid, usersecret, function(err, data){
-        console.log('read :', data, err);
-    });
-    */
-
     ibc.read_block('read', ['hello_world'], chaincodeid, userid, usersecret, function(err, data){
         console.log('read :', data, err);
     });
@@ -146,10 +130,4 @@ function cb_ready(err, cc){
 	
 };
 
-
-/*ibc.chain_stats([stats_callback]);
-function stats_callback(e, stats){ 
-	console.log('got some stats', stats);
-}
-*/
 
