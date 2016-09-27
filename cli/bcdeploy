@@ -1,1 +1,1 @@
-./peer chaincode invoke -u jim -l golang -n $1 -c $2
+./peer chaincode deploy -u jim -l golang -n $1 -c $2
