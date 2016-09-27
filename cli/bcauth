@@ -1,2 +1,2 @@
-./peer network login $1
+peer network login $1
 
