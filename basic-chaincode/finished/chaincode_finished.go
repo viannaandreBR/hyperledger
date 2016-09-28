@@ -19,7 +19,7 @@ package main
 import (
 	"errors"
 	"fmt"
-	"strconv"
+	
 	"github.com/hyperledger/fabric/core/chaincode/shim"
 )
 // SimpleChaincode example simple Chaincode implementation
