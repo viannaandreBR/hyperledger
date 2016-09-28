@@ -31,12 +31,15 @@ type SimpleChaincode struct {
 // Init resets all the things
 
 func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {
+	var A string    // Entities
 
 	if len(args) != 1 {
 		return nil, errors.New("Incorrect number of arguments. Expecting 1")
 	}
 
-	err := stub.PutState("hello_world", []byte(args[0]))
+	A =args[0] 
+
+	err := stub.PutState(A, []byte(A))
 	if err != nil {
 		return nil, err
 	}
