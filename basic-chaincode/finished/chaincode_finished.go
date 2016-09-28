@@ -31,7 +31,7 @@ type SimpleChaincode struct {
 // Init resets all the things
 
 func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string, args []string) ([]byte, error) {
-	var A string    // Entities
+	var A, B string    // Entities
 	var err error
 
 
@@ -40,6 +40,10 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string
 	}
 
 	A = args[0] 
+	fmt.Println("A " + A)
+    B = args[1] 
+	fmt.Println("B " + B)
+
 
 	err = stub.PutState(A, []byte(A))
 	if err != nil {
