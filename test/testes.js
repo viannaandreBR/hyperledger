@@ -97,7 +97,7 @@ var options = {
 		unzip_dir: 'marbles-chaincode-master/part2',
 		git_url: 'https://github.com/ibm-blockchain/marbles-chaincode/part2'
     }
-    
+ }   
   
 // Load  chaincode, with defined options, and return call-back-when-ready function.
 ibc.load(options, cb_ready);
