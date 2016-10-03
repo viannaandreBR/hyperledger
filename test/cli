@@ -1,6 +1,10 @@
  
 # WALLET
 
+cd $GOPATH/src/github.com/hyperledger/fabric/examples/chaincode/go/chaincode_getgoing
+CORE_CHAINCODE_ID_NAME=gg CORE_PEER_ADDRESS=0.0.0.0:7051 ./chaincode_getgoing
+
+
  peer chaincode deploy -n gg -c '{"function":"init", "args":["a", "100", "b", "200"]}'
  
  peer chaincode invoke -l golang -n gg -c '{"function":"invoke","args":["a","b","10"]}'

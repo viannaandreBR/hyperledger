@@ -34,6 +34,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string
 	var A, B string    // Entities
 	var err error
 
+	fmt.Println("***** STARTING ******")
 
 	if len(args) != 1 {
 		return nil, errors.New("Incorrect number of arguments. Expecting 1")
@@ -41,6 +42,7 @@ func (t *SimpleChaincode) Init(stub shim.ChaincodeStubInterface, function string
 
 	A = args[0] 
 	fmt.Println("A " + A)
+
     B = args[1] 
 	fmt.Println("B " + B)
 
