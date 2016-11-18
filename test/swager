@@ -3,8 +3,8 @@ https://legacy-ibm-bcs-broker.mybluemix.net/v2/swagger/d75a662e78b34bf9b64f3d16a
 
 POST /registrar
 {
-  "enrollId": "user_type1_738add3c2a",
-  "enrollSecret": "b1f83404d3"
+  "enrollId": "admin",
+  "enrollSecret": "c8b7973117"
 }
 
 POST /chaincode DeploySpec
