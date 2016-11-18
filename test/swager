@@ -23,7 +23,7 @@ POST /chaincode DeploySpec
                 "hi there"
             ]
         },
-        "secureContext": "user_type1_738add3c2a"
+        "secureContext": "admin"
     },
     "id": 1
 }
@@ -47,7 +47,7 @@ POST /chaincode Query
                 "hello_world"
             ]
         },
-        "secureContext": "user_type1_738add3c2a"
+        "secureContext": "admin"
     },
     "id": 2
 }
@@ -81,7 +81,7 @@ POST /chaincode invoke
                 "go away"
             ]
         },
-        "secureContext": "user_type1_738add3c2a"
+        "secureContext": "admin"
     },
     "id": 3
 }
