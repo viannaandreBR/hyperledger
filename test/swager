@@ -27,7 +27,8 @@ POST /chaincode DeploySpec
     "id": 1
 }
 
-    "message": "95914b788029573695e31d98072a14343b6bbe10b7bf9cce3298db0ebfcf477324c6b7b07867b4439c0918fba1c0d7e725bc06f90f081f21a72f430dae9cbea6"
+    "message": "3aeb9793d67968f966f2b093c361c70cdbf7a2813a02f7a5da344386580d3b519899b73003b335c587e3d016d44b54eb7d8030bddddbc3e9abf05db81c20eaef"
+
 
 POST /chaincode Query
 
@@ -38,7 +39,7 @@ POST /chaincode Query
     "params": {
         "type": 1,
         "chaincodeID": {
-            "name": "95914b788029573695e31d98072a14343b6bbe10b7bf9cce3298db0ebfcf477324c6b7b07867b4439c0918fba1c0d7e725bc06f90f081f21a72f430dae9cbea6"
+            "name": "3aeb9793d67968f966f2b093c361c70cdbf7a2813a02f7a5da344386580d3b519899b73003b335c587e3d016d44b54eb7d8030bddddbc3e9abf05db81c20eaef"
         },
         "ctorMsg": {
             "function": "read",
@@ -71,7 +72,7 @@ POST /chaincode invoke
     "params": {
         "type": 1,
         "chaincodeID": {
-            "name": "95914b788029573695e31d98072a14343b6bbe10b7bf9cce3298db0ebfcf477324c6b7b07867b4439c0918fba1c0d7e725bc06f90f081f21a72f430dae9cbea6"
+            "name": "3aeb9793d67968f966f2b093c361c70cdbf7a2813a02f7a5da344386580d3b519899b73003b335c587e3d016d44b54eb7d8030bddddbc3e9abf05db81c20eaef"
         },
         "ctorMsg": {
             "function": "write",
