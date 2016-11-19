@@ -91,4 +91,28 @@ https://80e72aada9224204a8c94042b563a3f8-vp0.us.blockchain.ibm.com:5001/chaincod
   "id": 0
 }
 
+GET OBJECT
+
+https://80e72aada9224204a8c94042b563a3f8-vp0.us.blockchain.ibm.com:5001/chaincode
+
+
+{
+  "jsonrpc": "2.0",
+  "method": "query",
+  "params": {
+    "type": 1,
+    "chaincodeID": {
+      "name": "dfc74e1d2544612828ec99295946a9e352ce689668b0f5c9a4eb587b4858ca2812c0bddd171004b09acf9ea0c1d0f55ddd410ad5856a5189c291cc9cc957f018"
+ },
+        "ctorMsg": {
+            "function": "read",
+            "args": [
+                "hash_livro_original"
+            ]
+        },
+        "secureContext": "admin"
+    },
+  "id": 0
+}
+
 
