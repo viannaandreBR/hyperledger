@@ -1,0 +1,22 @@
+DEPLOY DO SMART CONTRACT
+
+{
+    "jsonrpc": "2.0",
+    "method": "deploy",
+    "params": {
+        "type": 1,
+        "chaincodeID": {
+            "path": "https://github.com/plucena/learn-chaincode/finished"
+        },
+        "ctorMsg": {
+            "function": "init",
+            "args": [
+                "hi there"
+            ]
+        },
+        "secureContext": "admin"
+    },
+    "id": 1
+}
+
+
