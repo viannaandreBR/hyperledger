@@ -1,6 +1,6 @@
 MacOSX instructions --> https://github.com/hyperledger/fabric/blob/master/docs/dev-setup/devenv.md
 
-Once you have Vagrant, Virtualbox, 
+Once you have Vagrant, Virtualbox, go
 
 cd
 
