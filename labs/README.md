@@ -1,5 +1,5 @@
-BASIC SETUP
-============
+HYPERLEDGER SETUP
+=================
 
 1. Login to github
 
@@ -12,5 +12,11 @@ BASIC SETUP
 5. git clone https://github.com/{YOURGITID}/smartcontracts/
 
 * DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
+
+
+RUN HYPERLEDGER
+===============
+
+peer node start --peer-chaincodedev
 
 
