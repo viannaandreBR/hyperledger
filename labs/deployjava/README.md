@@ -1,4 +1,4 @@
-1. cd /opt/gopath/src/github.com/hyperledger/fabric/examples/chaincode/java/SimpleSample
+1. cd /hyperledger/core/chaincode/shim/java
 
 2. gradle build 
 
