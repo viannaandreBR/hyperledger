@@ -6,7 +6,7 @@
 
 4. cd /home/vagrant/smartcontracts/labs/deployjava/SimpleSample
 
-5. gradle build 
+5. gradle -b build.gradle build
 
 6. gradle -b build.gradle run
 
