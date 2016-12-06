@@ -30,8 +30,11 @@ peer chaincode query -l golang -n myassets2 -c '{"function":"read","args":["hell
 Java
 
 
-First http://stackoverflow.com/questions/39519586/shim-client-1-0-jar-missing-when-compiling-the-java-chain-code
+* First http://stackoverflow.com/questions/39519586/shim-client-1-0-jar-missing-when-compiling-the-java-chain-code
 
+cd /hyperledger/core/chaincode/shim/java
+
+gradle build
 
 cd /opt/gopath/src/github.com/hyperledger/fabric/examples/chaincode/java/SimpleSample
 
