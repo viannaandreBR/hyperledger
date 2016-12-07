@@ -21,7 +21,6 @@ peer chaincode query -l golang -n {CONTRACTNAME} -c '{"function":"query","args":
  # ASSET REGISTER
 
 
-#start go code
 CORE_CHAINCODE_ID_NAME=myassets2 CORE_PEER_ADDRESS=0.0.0.0:7051 ./finished
 
 peer chaincode deploy -n myassets2 -c '{"function":"init", "args":["hello_world", "ola"]}'
