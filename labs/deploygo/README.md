@@ -1,4 +1,5 @@
 # WALLET
+========
 
 
 cd /home/vagrant/youruser/smartconracts/labs/deploygo
@@ -18,8 +19,8 @@ peer chaincode invoke -l golang -n {CONTRACTNAME} -c '{"function":"invoke","args
 peer chaincode query -l golang -n {CONTRACTNAME} -c '{"function":"query","args":["b"]}'
 
 
- # ASSET REGISTER
-
+# ASSET REGISTER
+============
 
 CORE_CHAINCODE_ID_NAME=myassets2 CORE_PEER_ADDRESS=0.0.0.0:7051 ./finished
 
