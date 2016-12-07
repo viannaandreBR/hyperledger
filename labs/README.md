@@ -1,4 +1,4 @@
-HYPERLEDGER SETUP
+LAB SETUP
 =================
 
 1. Login to github
