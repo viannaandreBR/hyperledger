@@ -14,9 +14,5 @@ HYPERLEDGER SETUP
 * DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
 
 
-RUN HYPERLEDGER
-===============
-
-peer node start --peer-chaincodedev
 
 
