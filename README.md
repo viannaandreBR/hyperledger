@@ -1,6 +1,6 @@
    
 
-Segunda 
+    Segunda 
     09:00 - 09:10 - Abertura
     09:10 - 09:30 - Apresentacoes - Agostinho
     09:30 - 10:30 - Bluemix - Paulo Freire
