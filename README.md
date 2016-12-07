@@ -16,7 +16,7 @@
     09:00 - 10:30 - Blockchain Technology Details 
     10:30 - 10:45 - Coffee break 
     10:45 - 12:00 - Blockchain Fabrics 
-    10:30 - 13:30 - Lunch
+    12:00 - 13:30 - Lunch
     13:30 - 15:00 - Lab 03- Smart Contracts Java
     15:00 - 15:15 - Coffee break 
     15:00 - 18:00 - Lab 04 - Smart Contracts Java Implementation
