@@ -1,19 +1,29 @@
+
+
+BUILD HYPERLEDGER
+=================
+
+To build Hyperledger you need Vagrant, Virtualbox, golang and git installed on your host machine (Linux, Windows, MacOsX)
 MacOSX instructions --> https://github.com/hyperledger/fabric/blob/master/docs/dev-setup/devenv.md
 
-Once you have Vagrant, Virtualbox, go
+1. cd
 
-cd
+2. mkdir fabric
 
-mkdir fabric
+3. git clone http://github.com/hyperledger/fabric/
 
-git clone http://github.com/hyperledger/fabric/
+4. cd fabric/devenv
 
-cd fabric/devenv
+5. vagrant up
 
-vagrant up
+6. vagrant ssh
 
-vagrant ssh
+7. cd /hyperledger
 
-cd /hyperledger
+8. make
 
-make
+
+RUN HYPERLEDGER
+===============
+
+9. peer node start --peer-chaincodedev
