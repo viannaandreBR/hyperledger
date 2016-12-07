@@ -26,4 +26,9 @@ MacOSX instructions --> https://github.com/hyperledger/fabric/blob/master/docs/d
 RUN HYPERLEDGER
 ===============
 
-9. peer node start --peer-chaincodedev
+Two vagrant ssh windows
+
+
+1. orderer
+
+2. CORE_CHAINCODE_MODE=dev peer node start --peer-chaincodedev
