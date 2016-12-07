@@ -1,16 +1,21 @@
 # WALLET
 
-peer node start --peer-chaincodedev
 
-cd $GOPATH/src/github.com/hyperledger/fabric/examples/chaincode/go/chaincode_getgoing
-CORE_CHAINCODE_ID_NAME=gg CORE_PEER_ADDRESS=0.0.0.0:7051 ./chaincode_getgoing
+cd /home/vagrant/youruser/smartconracts/labs/deploygo
 
+COMPILE COMTRACT
 
- peer chaincode deploy -n gg -c '{"function":"init", "args":["a", "100", "b", "200"]}'
+go build XXX
+
+IN ORDER TO RUN A CONTRACT YOU NEED TO DEFINE A NAME FOR IT.
+
+CORE_CHAINCODE_ID_NAME={CONTRACTNAME} CORE_PEER_ADDRESS=0.0.0.0:7051 ./XXX &
+
+ peer chaincode deploy -n {CONTRACTNAME} -c '{"function":"init", "args":["a", "100", "b", "200"]}'
  
- peer chaincode invoke -l golang -n gg -c '{"function":"invoke","args":["a","b","10"]}'
+ peer chaincode invoke -l golang -n {CONTRACTNAME} -c '{"function":"invoke","args":["a","b","10"]}'
  
- peer chaincode query -l golang -n gg -c '{"function":"query","args":["b"]}'
+ peer chaincode query -l golang -n {CONTRACTNAME} -c '{"function":"query","args":["b"]}'
 
  # REGISSTRY
 
