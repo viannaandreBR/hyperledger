@@ -11,13 +11,14 @@ IN ORDER TO RUN A CONTRACT YOU NEED TO DEFINE A NAME FOR IT.
 
 CORE_CHAINCODE_ID_NAME={CONTRACTNAME} CORE_PEER_ADDRESS=0.0.0.0:7051 ./XXX &
 
- peer chaincode deploy -n {CONTRACTNAME} -c '{"function":"init", "args":["a", "100", "b", "200"]}'
+CORE_CHAINCODE_MODE=dev peer chaincode deploy  -n {CONTRACTNAME}  -c '{"function":"init", "args":["a", "100", "b", "200"]}'
  
- peer chaincode invoke -l golang -n {CONTRACTNAME} -c '{"function":"invoke","args":["a","b","10"]}'
+peer chaincode invoke -l golang -n {CONTRACTNAME} -c '{"function":"invoke","args":["a","b","10"]}'
  
- peer chaincode query -l golang -n {CONTRACTNAME} -c '{"function":"query","args":["b"]}'
+peer chaincode query -l golang -n {CONTRACTNAME} -c '{"function":"query","args":["b"]}'
 
- # REGISSTRY
+
+ # ASSET REGISTER
 
 
 #start go code
