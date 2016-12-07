@@ -7,9 +7,13 @@ LAB SETUP HYPERLEGER 0.7 server
 
 3. Login to Hyperledger VM
   
-3.1. ssh vagrant@{IP}
+3.1. ssh hyper@172.24.14.100
 
 password: XXXX
+
+4. cd fabric/devenv
+
+5. vagrant ssh
 
 4. mkdir youruser
 
