@@ -7,9 +7,15 @@ LAB SETUP HYPERLEGER 0.7 server
 
 3. Login to Hyperledger VM
   
-ssh youuser@{IP}
+3.1. ssh vagrant@{IP}
 
-4. git clone https://github.com/{YOURGITID}/smartcontracts/
+password: XXXX
+
+4. mkdir youruser
+
+5. cd youruser
+
+6. git clone https://github.com/{YOURGITID}/smartcontracts/
 
 * DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
 
