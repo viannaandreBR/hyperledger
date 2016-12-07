@@ -1,7 +1,7 @@
 LAB SETUP
 =================
 
-1. Login to github
+1. Login to github using your credentials
 
 2. Fork https://github.com/plucena/smartcontracts/
 
