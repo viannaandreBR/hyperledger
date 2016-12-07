@@ -1,12 +1,13 @@
-LAB SETUP
-=================
+LAB SETUP HYPERLEGER 0.7 server
+================================
 
 1. Login to github using your credentials
 
 2. Fork https://github.com/plucena/smartcontracts/
 
 3. Login to Hyperledger VM
-   ssh youuser@{IP}
+  
+ssh youuser@{IP}
 
 4. git clone https://github.com/{YOURGITID}/smartcontracts/
 
