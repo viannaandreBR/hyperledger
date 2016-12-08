@@ -1,7 +1,7 @@
 
 
-BUILD HYPERLEDGER
-=================
+BUILD HYPERLEDGER 0.7
+======================
 
 To build Hyperledger you need Vagrant, Virtualbox, golang and git installed on your host machine (Linux, Windows, MacOsX)
 MacOSX instructions --> https://github.com/hyperledger/fabric/blob/master/docs/dev-setup/devenv.md
