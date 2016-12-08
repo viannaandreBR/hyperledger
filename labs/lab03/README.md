@@ -5,37 +5,32 @@ HYPERLEGER 0.6.1 server
 
 2. Fork https://github.com/plucena/smartcontracts/
 
-3. Login to Hyperledger VM
+3. Open a shell  
   
-      ssh hyper4@172.24.14.100
-      password: XXXX
+4. ssh hyper4@172.24.14.100
+      
+5. mkdir youruser
 
-4. mkdir youruser
+6. cd youruser
 
-5. cd youruser
+7. git clone https://github.com/{YOURGITID}/smartcontracts/  * DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
 
-6. git clone https://github.com/{YOURGITID}/smartcontracts/
+8. cd /home/vagrant/{yoruruser}/smartcontracts/labs/lab03/SimpleSample
 
-* DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
+9. gradle -b build.gradle build
 
-7. cd /home/vagrant/{yoruruser}/smartcontracts/labs/deployjava/SimpleSample
-
-5. gradle -b build.gradle build
-
-6. gradle -b build.gradle run
+10. gradle -b build.gradle run
 
 
-7. Open a second vagrant window
+11. Open a second shell   
 
-      ssh hyper4@172.24.14.100
-      password: XXXX
+12. ssh hyper4@172.24.14.100
+     
+13. peer chaincode deploy -l java -n SimpleSample -c '{"Args": ["init", "a", "100", "b", "200"]}'
 
+14. peer chaincode invoke -l java -n SimpleSample -c '{"Args": ["transfer", "a", "b", "10"]}'
 
-8. peer chaincode deploy -l java -n SimpleSample -c '{"Args": ["init", "a", "100", "b", "200"]}'
-
-9. peer chaincode invoke -l java -n SimpleSample -c '{"Args": ["transfer", "a", "b", "10"]}'
-
-10. peer chaincode query -l java -n SimpleSample -c '{"Args": ["query", "b"]}'
+15. peer chaincode query -l java -n SimpleSample -c '{"Args": ["query", "b"]}'
 
 
 
