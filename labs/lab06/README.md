@@ -1,1 +1,1 @@
-http://github.com/plucena/learnchaincode
+http://github.com/plucena/learn-chaincode
