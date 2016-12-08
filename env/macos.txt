@@ -1,1 +1,0 @@
-https://github.com/hyperledger/fabric/blob/master/docs/dev-setup/devenv.md
