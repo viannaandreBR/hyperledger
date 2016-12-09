@@ -1,4 +1,4 @@
-*Are you looking for the Marbles app demo?  That’s not here, head to the [marbles example](https://github.com/IBM-Blockchain/marbles)* 
+We should consider the [marbles example](https://github.com/IBM-Blockchain/marbles)* as part of this practise! 
 
 # ibm-blockchain-js
 This is a Node.js library for REST based interaction with [Hyperledger](https://github.com/hyperledger/fabric) [chaincode](https://github.com/hyperledger/fabric/blob/master/docs/FAQ/chaincode_FAQ.md/). 
