@@ -1,7 +1,7 @@
 
 
-HYPERLEGER 0.6.1 server
-================================
+JAVA ASSET TRANSFER DEMO @ HYPERLEDGER 0.61 SERVER
+===================================================
 
 3. Open a shell  
   
