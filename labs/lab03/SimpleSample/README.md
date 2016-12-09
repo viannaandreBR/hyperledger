@@ -37,6 +37,8 @@ HYPERLEGER 0.6.1 server
 15. peer chaincode query -l java -n SimpleSample -c '{"Args": ["query", "b"]}'
 
 
-EXERCICIO ALTERAR E DEPLOYAR
+*QUERIES USANDO POSTMAN
+
+*EXERCICIO ALTERAR E DEPLOYAR
 
 
