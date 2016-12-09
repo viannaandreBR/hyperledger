@@ -47,10 +47,11 @@ PART I - EDIT CODE ON LOCAL MACHINE
 
 7. git clone https://github.com/{YOURGITID}/smartcontracts/  
 
-   DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
-  
+* DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
 
-* Update SimpleSample -> SimpleSampleStudentNAME
+* Update SimpleSample -> SimpleSample[YourUser]
+
+* Implement Bank Taxes
 
 * Update pom.xml
 
@@ -61,7 +62,8 @@ PART I - EDIT CODE ON LOCAL MACHINE
 * git push
 
 
-PART II SETUP SERVER
+
+PART II TEST SMART CONTRACT ON HYPERLEDGER SERVER
 
 3. Open a shell  
   
