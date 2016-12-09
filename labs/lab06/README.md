@@ -42,7 +42,7 @@ QUERY
      	 "params": {
           "type": 2,
           "chaincodeID": {
-              "name": 3aeb9793d67968f966f2b093c361c70cdbf7a2813a02f7a5da344386580d3b519899b73003b335c587e3d016d44b54eb7d8030bddddbc3e9abf05db81c20eaef"
+              "name": "3aeb9793d67968f966f2b093c361c70cdbf7a2813a02f7a5da344386580d3b519899b73003b335c587e3d016d44b54eb7d8030bddddbc3e9abf05db81c20eaef"
           },
           "ctorMsg": {
 			"function": "read",
@@ -84,15 +84,4 @@ QUERY
       	"params": {
           "type": 2,
           "chaincodeID": {
-              "name": 3aeb9793d67968f966f2b093c361c70cdbf7a2813a02f7a5da344386580d3b519899b73003b335c587e3d016d44b54eb7d8030bddddbc3e9abf05db81c20eaef"
-          },
-          "ctorMsg": {
-			"function": "read",
-      		"args": ["hello_world"]
-      	  },
-          "secureContext": "admin"
-       },
-      "id": 2
-  	}
-
-
+              "name":
