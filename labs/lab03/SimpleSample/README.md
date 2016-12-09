@@ -1,5 +1,3 @@
-
-
 JAVA ASSET TRANSFER DEMO @ HYPERLEDGER 0.61 SERVER
 ===================================================
 
@@ -34,7 +32,7 @@ INSTRUCTOR DEMO
 STUDENTS EXERCICE - IMPLEMENT TAXES ON TRANSACTIONS
 ---------------------------------------------------
 
-PART I - EDIT CODE ON LOCAL MACHINE
+**PART I - EDIT CODE ON LOCAL MACHINE**
 
 
 1. Login to github using your credentials
@@ -49,11 +47,17 @@ PART I - EDIT CODE ON LOCAL MACHINE
 
 * DO NOT CLONE https://github.com/plucena/smartcontracts/, CLONE YOUR FORK
 
-* Update SimpleSample -> SimpleSample[YourUser]
+* Update contract name on SimpleSample.java 
 
-* Implement Bank Taxes
+```
+    @Override
+  	public String getChaincodeID() {
+		  return "BancoSeuUsuario";
+	  }
+```
 
-* Update pom.xml
+* Implement Bank Taxes on SimpleSample.java 
+
 
 * git add *
 
@@ -63,7 +67,7 @@ PART I - EDIT CODE ON LOCAL MACHINE
 
 
 
-PART II TEST SMART CONTRACT ON HYPERLEDGER SERVER
+**PART II TEST SMART CONTRACT ON HYPERLEDGER SERVER**
 
 3. Open a shell  
   
