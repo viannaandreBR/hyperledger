@@ -3,10 +3,6 @@
 HYPERLEGER 0.6.1 server
 ================================
 
-1. Login to github using your credentials
-
-2. Fork https://github.com/plucena/smartcontracts/
-
 3. Open a shell  
   
 4. ssh hyper4@172.24.14.100
@@ -40,5 +36,11 @@ HYPERLEGER 0.6.1 server
 *QUERIES USANDO POSTMAN
 
 *EXERCICIO ALTERAR E DEPLOYAR
+=============================
+
+
+1. Login to github using your credentials
+
+2. Fork https://github.com/plucena/smartcontracts/
 
 
