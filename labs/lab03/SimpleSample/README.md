@@ -93,11 +93,11 @@ STUDENTS EXERCICE - IMPLEMENT TAXES ON TRANSACTIONS
 
 12. ssh hyper4@172.24.14.100
      
-13. peer chaincode deploy -l java -n SimpleSample[YourUSER] -c '{"Args": ["init", "a", "100", "b", "200"]}'
+13. peer chaincode deploy -l java -n BancoSeuUsuario -c '{"Args": ["init", "a", "100", "b", "200"]}'
 
-14. peer chaincode invoke -l java -n SimpleSample[YourUSER] -c '{"Args": ["transfer", "a", "b", "10"]}'
+14. peer chaincode invoke -l java -n BancoSeuUsuario -c '{"Args": ["transfer", "a", "b", "10"]}'
 
-15. peer chaincode query -l java -n SimpleSample[YourUSER] -c '{"Args": ["query", "b"]}'
+15. peer chaincode query -l java -n BancoSeuUsuario -c '{"Args": ["query", "b"]}'
 
 
 
