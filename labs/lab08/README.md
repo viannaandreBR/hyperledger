@@ -16,7 +16,8 @@ GscLabBlockchainApp App on [Bluemix](https://console.ng.bluemix.net)
 ![Image of  GscLabBlockchainApp]
 (https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img2.png)
 
-4 -  Rename the Application - "Programa de Pontos"
+4  IBM Bluemix DevOps Services
+-  Rename the Application - "Programa de Pontos"
 - /public/openPoints/home.html - line 376
 - Click deploy
 
@@ -25,3 +26,14 @@ GscLabBlockchainApp App on [Bluemix](https://console.ng.bluemix.net)
 
 
 5 - Wait ~1 min for deploy to complete
+- Return to [Bluemix Console](https://console.ng.bluemix.net)
+- Click on the GscLabBlockchainApp link
+
+![Image of  GscLabBlockchainApp]
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img4.png)
+
+
+6  Return to IBM Bluemix DevOps Services
+-  Review app.js
+
+
