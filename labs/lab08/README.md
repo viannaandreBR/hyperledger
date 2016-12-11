@@ -39,14 +39,14 @@ https://github.com/IBM-Blockchain/ibm-blockchain-js
 
 - npm install ibm-blockchain-js
 
-``
-    var Ibc1 = require('ibm-blockchain-js');
+```
+    var Ibc1 = require('ibm-blockchain-js');
     var ibc = new Ibc1(/*logger*/);             //you can pass a logger such as winston here - optional
     var chaincode = {};
 
 chaincode.query
-chaincode.invoke``
-
+chaincode.invoke
+```
 
 -  Review app.js
 
