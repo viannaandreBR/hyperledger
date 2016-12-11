@@ -51,7 +51,8 @@ chaincode.invoke
 -  Review app.js
 
 
-
+![Image of  GscLabBlockchainApp]
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img4.png)
 
 
 
