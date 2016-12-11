@@ -5,6 +5,17 @@ Open Points App
 
 2 - Navigate through the app
 
-3 - Access App on [Bluemix](https://console.ng.bluemix.net)
+3 - Access 
+GscLabBlockchainApp App on [Bluemix](https://console.ng.bluemix.net)
 
-4 - Clone app - 
+![Image of  GscLabBlockchainApp]
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img1.png)
+
+3 - Choose Edit Code
+
+![Image of  GscLabBlockchainApp]
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img2.png)
+
+4 - 
+
+
