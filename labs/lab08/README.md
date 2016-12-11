@@ -52,7 +52,12 @@ chaincode.invoke
 
 
 ![Image of  GscLabBlockchainApp]
-(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img4.png)
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img5.png)
 
+
+Student Exercice
+----------
+
+Adapt test.js so it can query existing chaincode
 
 
