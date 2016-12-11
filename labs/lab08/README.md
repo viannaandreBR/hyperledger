@@ -54,6 +54,13 @@ chaincode.invoke
 ![Image of  GscLabBlockchainApp]
 (https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img5.png)
 
+![Image of  GscLabBlockchainApp]
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img6.png)
+
+
+![Image of  GscLabBlockchainApp]
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img7.png)
+
 
 Student Exercice
 ----------
