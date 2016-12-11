@@ -1,9 +1,8 @@
 Car Lease Demo
 --------------
-https://github.com/IBM-Blockchain/car-lease-demo
-----------------
 
 
+1. Review Scenario - https://github.com/IBM-Blockchain/car-lease-demo
 
 1. login to bluemix
 
