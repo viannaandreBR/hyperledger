@@ -9,7 +9,7 @@ Open Points App
 GscLabBlockchainApp App on [Bluemix](https://console.ng.bluemix.net)
 
 ![Image of  GscLabBlockchainApp]
-(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img1.png)
+(https://github.com/plucena/smartcontracts/blob/master/labs/lab08/img/img01.png)
 
 3 - Choose Edit Code
 
