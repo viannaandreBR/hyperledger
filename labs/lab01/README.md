@@ -14,6 +14,27 @@ VERSION 0.6.1 WITH JAVA SUPPORT
 
 6. Deploy Java Contract 
 ![Deploy](https://github.com/plucena/smartcontracts/blob/master/labs/lab01/img/img01.png)
+``` 
+5. http://localhost:7050/chaincode
+
+{
+		"jsonrpc": "2.0",
+		"method": "deploy",
+		"params": {
+				"type": 4,
+				"chaincodeID": {
+					"path": "https://github.com/zamrokk/JavaCDD"
+				},
+				"ctorMsg": {
+					"args": ["init","farmer","10", "42"]
+				}
+			},
+		"id": 1
+}
+
+```
+Execute Java Contract
+
 
 
 
