@@ -33,9 +33,24 @@ VERSION 0.6.1 WITH JAVA SUPPORT
 }
 
 ```
-Execute Java Contract
+6. Execute Java Contract
 
-
-
+![Deploy](https://github.com/plucena/smartcontracts/blob/master/labs/lab01/img/img02.png)
+``` 
+{
+      "jsonrpc": "2.0",
+      "method": "query",
+      "params": {
+          "type": 4,
+          "chaincodeID": {
+              "name": "799e747df41701ddf5e44937819df39c715410a55c96369c6a6677e8ae592a2d84496ebfef13802286e6b02e7a12f93c998aa3e4fdf54fed71f207b691d5cd69"
+          },
+          "ctorMsg": {
+              "args":["query","farmer"]
+          }
+      },
+      "id": 2
+}
+``` 
 
 
