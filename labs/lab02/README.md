@@ -13,7 +13,7 @@ DEPLOY HYPERLEDGER SERVER VERSION 0.6.1 WITH JAVA SUPPORT
 5. http://localhost:7050/chain
 
 6. Deploy Java Contract 
-![Deploy](https://github.com/plucena/smartcontracts/blob/master/labs/lab01/img/img01.png)
+![Deploy](https://github.com/plucena/smartcontracts/blob/master/labs/lab02/img/img01.png)
 ``` 
 5. http://localhost:7050/chaincode
 
@@ -35,7 +35,7 @@ DEPLOY HYPERLEDGER SERVER VERSION 0.6.1 WITH JAVA SUPPORT
 ```
 6. Execute Java Contract
 
-![Deploy](https://github.com/plucena/smartcontracts/blob/master/labs/lab01/img/img02.png)
+![Deploy](https://github.com/plucena/smartcontracts/blob/master/labs/lab02/img/img02.png)
 ``` 
 {
       "jsonrpc": "2.0",
