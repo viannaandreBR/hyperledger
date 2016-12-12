@@ -1,5 +1,5 @@
 
-VERSION 0.6.1 WITH JAVA SUPPORT
+DEPLOY HYPERLEDGER SERVER VERSION 0.6.1 WITH JAVA SUPPORT
 
 **IN CASE YOU HAVE OTHER HYPERLEGER DOCKER IMAGES, YOU SHOULD REMOVE THEM FIRST**
 
@@ -43,7 +43,7 @@ VERSION 0.6.1 WITH JAVA SUPPORT
       "params": {
           "type": 4,
           "chaincodeID": {
-              "name": "799e747df41701ddf5e44937819df39c715410a55c96369c6a6677e8ae592a2d84496ebfef13802286e6b02e7a12f93c998aa3e4fdf54fed71f207b691d5cd69"
+              "name": "YOUR_CONTRACT_ID"
           },
           "ctorMsg": {
               "args":["query","farmer"]
