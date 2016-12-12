@@ -9,8 +9,8 @@
     12:30 - 14:00 - Lunch
     13:30 - 15:30 - IDE + Devops in the Bluemix environment  - Paulo Freire
     15:30 - 15:45 - Coffee break 
-    15:45 - 16:45 - Blockchain Explainded 
-    16:45 - 18:00 - Lab 01 Blockchain Asset Demos 
+    15:45 - 16:45 - Lab 01  Blockchain Explainded 
+    16:45 - 18:00 - Lab 02  Blockchain Asset Demos 
 		
     Tuesday 
     09:00 - 10:30 - Blockchain Technology Details 
