@@ -1,6 +1,10 @@
-http://github.com/plucena/learn-chaincode/
+http://github.com/plucena/learn-chaincode-1/
 
-https://github.com/plucena/learn-chaincode/blob/master/finished/chaincode_finished.go
+https://github.com/plucena/learn-chaincode-1/blob/master/finished/chaincode_finished.go
+
+![go1](https://github.com/plucena/smartcontracts/blob/master/labs/lab06/img/img1.png)
+
+![go2](https://github.com/plucena/smartcontracts/blob/master/labs/lab06/img/img2.png)
 
 
 REGISTER
