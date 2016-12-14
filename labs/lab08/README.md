@@ -65,6 +65,10 @@ chaincode.invoke
 Student Exercice
 ----------
 
-Adapt test.js so it can query existing chaincode
+git clone https://github.com/IBM-Blockchain/ibm-blockchain-js
+
+npm install tape
+npm install async 
+
 
 
