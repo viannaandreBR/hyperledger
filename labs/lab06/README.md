@@ -10,6 +10,9 @@
 ![go2](https://github.com/plucena/smartcontracts/blob/master/labs/lab06/img/img2.png)
 
 
+FOR THE NEXT EXAMPLES USE YOUR BLOCKCHAIN URL!
+
+
 REGISTER
 --------
 	https://b20d828038124c06b200c36d49738e7d-vp0.us.blockchain.ibm.com:5003/registrar
