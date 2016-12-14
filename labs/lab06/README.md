@@ -31,7 +31,7 @@ DEPLOY
       	"params": {
           "type": 1,
           "chaincodeID": {
-              "path": "https://github.com/IBM-Blockchain/learn-chaincode/finished"
+              "path": "https://github.com/YOUR-GIT-ID/learn-chaincode/finished"
           },
           "ctorMsg": {
             "function": "init",
