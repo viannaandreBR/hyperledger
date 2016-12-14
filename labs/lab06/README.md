@@ -3,6 +3,8 @@
 ![fork](https://github.com/plucena/learn-chaincode-1/blob/master/imgs/fork.png)
 
 
+2. RETRIEVE YOUR BLOCKCHAIN REST URLS (USE CAR LEASE DEPLOY OR CREATE NEW SERVICE)
+
 ![go1](https://github.com/plucena/smartcontracts/blob/master/labs/lab06/img/img1.png)
 
 ![go2](https://github.com/plucena/smartcontracts/blob/master/labs/lab06/img/img2.png)
