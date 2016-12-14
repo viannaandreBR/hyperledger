@@ -68,7 +68,16 @@ Student Exercice
 git clone https://github.com/IBM-Blockchain/ibm-blockchain-js
 
 npm install tape
+
 npm install async 
+
+npm install adm-zip
+
+node test/cb_readyTest.js
+
+
+https://github.com/IBM-Blockchain/ibm-blockchain-js/blob/master/test/cb_readyTest.js
+
 
 
 
