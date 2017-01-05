@@ -2,12 +2,19 @@ BOOK COPIES API
 
 SMART CONTRACT ID: 16e655c0fce6a9882896d3d6d11f7dcd4f45027fd4764004440ff1e61340910a9d67685c4bb723272a497f3cf428e6cf6b009618612220e1471e03b6c0aa76cb
 
+
+AUTH
+-------
+
 https://004f5dc6f3ab4dafbb63086332449ded-vp0.us.blockchain.ibm.com:5002/registrar
 {
   "enrollId": "admin",
   "enrollSecret": "c2247ac251"
 }	
 
+
+REGISTRAR NOVO ASSET NA COMPRA
+----------------------------------
 
 https://004f5dc6f3ab4dafbb63086332449ded-vp0.us.blockchain.ibm.com:5002/chaincode
 
