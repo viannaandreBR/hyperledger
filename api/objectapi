@@ -1,19 +1,21 @@
-BOOK COPIES API
+BOOK COPIES BLOCKCHAIN API
 
-SMART CONTRACT ID: 16e655c0fce6a9882896d3d6d11f7dcd4f45027fd4764004440ff1e61340910a9d67685c4bb723272a497f3cf428e6cf6b009618612220e1471e03b6c0aa76cb
 
-https://80e72aada9224204a8c94042b563a3f8-vp0.us.blockchain.ibm.com:5001/registrar
+
+AUTH
+-------
+
+https://4154a359a796432d86eab30f71b155bd-vp0.us.blockchain.ibm.com:5001/registrar
 {
   "enrollId": "admin",
-  "enrollSecret": "c2247ac251"
+  "enrollSecret": "335f531fc8"
 }	
 
 
-https://004f5dc6f3ab4dafbb63086332449ded-vp0.us.blockchain.ibm.com:5002/chaincode
+REGISTRAR NOVO ASSET NA COMPRA
+----------------------------------
 
-
-POST
-
+POST https://4154a359a796432d86eab30f71b155bd-vp0.us.blockchain.ibm.com:5001/chaincode
 
 
 {
@@ -27,10 +29,10 @@ POST
         "ctorMsg": {
             "function": "init_marble",
             "args": [
-                "torre_rf_xyz",
-                "898989",
-                "35",
-                "bob"
+                "hashdousuario2",
+                "hashdolivro",
+                "0",
+                "email"
             ]
         },
         "secureContext": "admin"
@@ -39,6 +41,12 @@ POST
 } 
 
 
+
+
+CONSULTAR ASSET REGISTRADO
+----------------------------
+
+https://4154a359a796432d86eab30f71b155bd-vp0.us.blockchain.ibm.com:5001/chaincode
 
 {
   "jsonrpc": "2.0",
@@ -50,11 +58,11 @@ POST
     },
         "ctorMsg": {
             "function": "read",
-            "args": [
-                "torre_rf_xyz"
-            ]
+            "args": ["hashdousuario2"]
         },
         "secureContext": "admin"
     },
-  "id": 0
+  "id": 5
 }
+
+

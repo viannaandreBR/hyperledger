@@ -1,7 +1,7 @@
 Open Points App
 -----------------
 
-1 - [Deploy open points App](ibm.biz/Bdrp5r)
+1 - [Deploy open points App](http://ibm.biz/Bdrp5r)
 
 2 - Navigate through the app
 
@@ -65,6 +65,19 @@ chaincode.invoke
 Student Exercice
 ----------
 
-Adapt test.js so it can query existing chaincode
+git clone https://github.com/IBM-Blockchain/ibm-blockchain-js
+
+npm install tape
+
+npm install async 
+
+npm install adm-zip
+
+node test/cb_readyTest.js
+
+
+https://github.com/IBM-Blockchain/ibm-blockchain-js/blob/master/test/cb_readyTest.js
+
+
 
 

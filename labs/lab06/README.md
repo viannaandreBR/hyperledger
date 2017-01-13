@@ -24,14 +24,14 @@ REGISTER
 
 DEPLOY
 ------
- 	https://b20d828038124c06b200c36d49738e7d-vp0.us.blockchain.ibm.com:5003/chaincode
+ 	http://172.24.14.100:7050/chaincode
 	{
       	"jsonrpc": "2.0",
       	"method": "deploy",
       	"params": {
           "type": 1,
           "chaincodeID": {
-              "path": "https://github.com/YOUR-GIT-ID/learn-chaincode/finished"
+              "path": "https://github.com/YOUR-GIT-ID/learn-chaincode-1/finished"
           },
           "ctorMsg": {
             "function": "init",
@@ -45,7 +45,7 @@ DEPLOY
 
 QUERY
 ------
-	https://b20d828038124c06b200c36d49738e7d-vp0.us.blockchain.ibm.com:5003/chaincode
+	http://172.24.14.100:7050/chaincode
 	{
       	"jsonrpc": "2.0",
      	 "method": "query",
@@ -66,7 +66,7 @@ QUERY
   
 INVOKE
 ------
-	https://b20d828038124c06b200c36d49738e7d-vp0.us.blockchain.ibm.com:5003/chaincode
+	http://172.24.14.100:7050/chaincode
 	{
     	"jsonrpc": "2.0",
    	 "method": "invoke",
@@ -91,7 +91,7 @@ INVOKE
 
 QUERY
 ------
-	https://b20d828038124c06b200c36d49738e7d-vp0.us.blockchain.ibm.com:5003/chaincode
+	http://172.24.14.100:7050/chaincode
 	{
       	"jsonrpc": "2.0",
      	 "method": "query",
