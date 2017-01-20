@@ -38,8 +38,8 @@ var marbleIndexStr = "_marbleindex"				//name for the key/value that will store 
 var openTradesStr = "_opentrades"				//name for the key/value that will store all open trades
 
 type Marble struct{
-	Book_hash string `json:"book_hash"`					//the fieldtags are needed to keep case from bouncing around
 	Copy_Hash string `json:"copy_hash"`
+	Book_hash string `json:"book_hash"`					//the fieldtags are needed to keep case from bouncing around
 	Size int `json:"size"`
 	User string `json:"user"`
 }
@@ -290,7 +290,7 @@ func (t *SimpleChaincode) init_marble(stub shim.ChaincodeStubInterface, args []s
 	}
 	res := Marble{}
 	json.Unmarshal(marbleAsBytes, &res)
-	if res.Name == name{
+	if res.Copy_Hash == name{
 		fmt.Println("This marble arleady exists: " + name)
 		fmt.Println(res);
 		return nil, errors.New("This marble arleady exists")				//all stop a marble by this name exists
@@ -468,7 +468,7 @@ func (t *SimpleChaincode) perform_trade(stub shim.ChaincodeStubInterface, args [
 			json.Unmarshal(marbleAsBytes, &closersMarble)											//un stringify it aka JSON.parse()
 			
 			//verify if marble meets trade requirements
-			if closersMarble.Color != trades.OpenTrades[i].Want.Color || closersMarble.Size != trades.OpenTrades[i].Want.Size {
+			if closersMarble.Book_hash  != trades.OpenTrades[i].Want.Book_hash  || closersMarble.Size != trades.OpenTrades[i].Want.Size {
 				msg := "marble in input does not meet trade requriements"
 				fmt.Println(msg)
 				return nil, errors.New(msg)
@@ -479,7 +479,7 @@ func (t *SimpleChaincode) perform_trade(stub shim.ChaincodeStubInterface, args [
 				fmt.Println("! no errors, proceeding")
 
 				t.set_user(stub, []string{args[2], trades.OpenTrades[i].User})						//change owner of selected marble, closer -> opener
-				t.set_user(stub, []string{marble.Name, args[1]})									//change owner of selected marble, opener -> closer
+				t.set_user(stub, []string{marble.Copy_Hash, args[1]})									//change owner of selected marble, opener -> closer
 			
 				trades.OpenTrades = append(trades.OpenTrades[:i], trades.OpenTrades[i+1:]...)		//remove trade
 				jsonAsBytes, _ := json.Marshal(trades)
@@ -522,7 +522,7 @@ func findMarble4Trade(stub shim.ChaincodeStubInterface, user string, color strin
 		//fmt.Println("looking @ " + res.User + ", " + res.Color + ", " + strconv.Itoa(res.Size));
 		
 		//check for user && color && size
-		if strings.ToLower(res.User) == strings.ToLower(user) && strings.ToLower(res.Color) == strings.ToLower(color) && res.Size == size{
+		if strings.ToLower(res.User) == strings.ToLower(user) && strings.ToLower(res.Book_hash) == strings.ToLower(color) && res.Size == size{
 			fmt.Println("found a marble: " + res.Name)
 			fmt.Println("! end find marble 4 trade")
 			return res, nil
