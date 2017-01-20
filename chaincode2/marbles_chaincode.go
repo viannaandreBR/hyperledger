@@ -44,6 +44,10 @@ type Marble struct{
 	User string `json:"user"`
 }
 
+type Description struct{
+	Color string `json:"color"`
+	Size int `json:"size"`
+}
 
 type AnOpenTrade struct{
 	User string `json:"user"`					//user who created the open trade order
