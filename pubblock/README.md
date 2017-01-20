@@ -5,64 +5,81 @@ BOOK COPIES BLOCKCHAIN API
 AUTH
 -------
 
-https://4154a359a796432d86eab30f71b155bd-vp0.us.blockchain.ibm.com:5001/registrar
-{
-  "enrollId": "admin",
-  "enrollSecret": "335f531fc8"
-}	
+    https://0d236f00feec4cabb327e6325b9813f2-vp0.us.blockchain.ibm.com:5003/registrar
+    {
+     "enrollId": "admin",
+      "enrollSecret": "4411a0a98b"
+    }	
+
+
+INSTALAR SMART CONTRACT
+-------------------------
+
+
+POST     https://0d236f00feec4cabb327e6325b9813f2-vp0.us.blockchain.ibm.com:5003/chaincode
+
+    {
+    "jsonrpc": "2.0",
+    "method": "deploy",
+    "params": {
+    "type": 1,
+    "chaincodeID": {"path": "https://github.com/plucena/smartcontracts/pubblock"},
+    "ctorMsg": {
+    "function": "init",
+    "args": ["200"]
+     },
+      "secureContext": "admin"
+    },
+    "id": 0
+    }
+
 
 
 REGISTRAR NOVO ASSET NA COMPRA
 ----------------------------------
 
-POST https://4154a359a796432d86eab30f71b155bd-vp0.us.blockchain.ibm.com:5001/chaincode
+POST     https://0d236f00feec4cabb327e6325b9813f2-vp0.us.blockchain.ibm.com:5003/chaincode
 
-
-{
-    "jsonrpc": "2.0",
-    "method": "invoke",
-    "params": {
-        "type": 1,
-        "chaincodeID": {
-            "name": "16e655c0fce6a9882896d3d6d11f7dcd4f45027fd4764004440ff1e61340910a9d67685c4bb723272a497f3cf428e6cf6b009618612220e1471e03b6c0aa76cb"
-        },
-        "ctorMsg": {
-            "function": "init_marble",
-            "args": [
-                "hashdousuario2",
-                "hashdolivro",
-                "0",
-                "email"
-            ]
-        },
-        "secureContext": "admin"
-    },
-    "id": 15
-} 
-
-
+    {
+      "jsonrpc": "2.0",
+      "method": "invoke",
+      "params": {
+      "type": 1,
+      "chaincodeID": {
+      "name": "19cfab4581100238f1f3b4564ce167e4df277be8d7a3ab3587671bb1ea03c2e854c3e197e181bb12c54e7a54487247ee931eb91d3932dae54a8463bc1ff151e9"
+      },
+      "ctorMsg": {
+      "function": "init_marble",
+      "args": ["livrodobob" ,  "pequeno principe", "0", "bb@lala.com"] 
+      },
+      "secureContext": "admin"
+      },
+      "id": 0
+      }
+  
 
 
 CONSULTAR ASSET REGISTRADO
 ----------------------------
 
-https://4154a359a796432d86eab30f71b155bd-vp0.us.blockchain.ibm.com:5001/chaincode
+POST     https://0d236f00feec4cabb327e6325b9813f2-vp0.us.blockchain.ibm.com:5003/chaincode
 
-{
-  "jsonrpc": "2.0",
-  "method": "query",
-  "params": {
+    {
+    "jsonrpc": "2.0",
+    "method": "query",
+    "params": {
     "type": 1,
     "chaincodeID": {
-      "name": "16e655c0fce6a9882896d3d6d11f7dcd4f45027fd4764004440ff1e61340910a9d67685c4bb723272a497f3cf428e6cf6b009618612220e1471e03b6c0aa76cb"
+    "name":  "19cfab4581100238f1f3b4564ce167e4df277be8d7a3ab3587671bb1ea03c2e854c3e197e181bb12c54e7a54487247ee931eb91d3932dae54a8463bc1ff151e9"
     },
-        "ctorMsg": {
-            "function": "read",
-            "args": ["hashdousuario2"]
-        },
-        "secureContext": "admin"
+    "ctorMsg": {
+    "function": "read",
+    "args": ["livrodobob"]
     },
-  "id": 5
-}
+    "secureContext": "admin"
+    },
+    "id": 0
+    }
+
 
 
