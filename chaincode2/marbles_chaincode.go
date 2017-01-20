@@ -38,16 +38,12 @@ var marbleIndexStr = "_marbleindex"				//name for the key/value that will store 
 var openTradesStr = "_opentrades"				//name for the key/value that will store all open trades
 
 type Marble struct{
-	Name string `json:"name"`					//the fieldtags are needed to keep case from bouncing around
-	Color string `json:"color"`
+	Book_hash string `json:"book_hash"`					//the fieldtags are needed to keep case from bouncing around
+	Copy_Hash string `json:"copy_hash"`
 	Size int `json:"size"`
 	User string `json:"user"`
 }
 
-type Description struct{
-	Color string `json:"color"`
-	Size int `json:"size"`
-}
 
 type AnOpenTrade struct{
 	User string `json:"user"`					//user who created the open trade order
