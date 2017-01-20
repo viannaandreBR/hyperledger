@@ -468,7 +468,7 @@ func (t *SimpleChaincode) perform_trade(stub shim.ChaincodeStubInterface, args [
 			json.Unmarshal(marbleAsBytes, &closersMarble)											//un stringify it aka JSON.parse()
 			
 			//verify if marble meets trade requirements
-			if closersMarble.Book_hash  != trades.OpenTrades[i].Want.Book_hash  || closersMarble.Size != trades.OpenTrades[i].Want.Size {
+			if closersMarble.Book_hash  != trades.OpenTrades[i].Want.Color  || closersMarble.Size != trades.OpenTrades[i].Want.Size {
 				msg := "marble in input does not meet trade requriements"
 				fmt.Println(msg)
 				return nil, errors.New(msg)
@@ -523,7 +523,7 @@ func findMarble4Trade(stub shim.ChaincodeStubInterface, user string, color strin
 		
 		//check for user && color && size
 		if strings.ToLower(res.User) == strings.ToLower(user) && strings.ToLower(res.Book_hash) == strings.ToLower(color) && res.Size == size{
-			fmt.Println("found a marble: " + res.Name)
+			fmt.Println("found a marble: " + res.Book_hash)
 			fmt.Println("! end find marble 4 trade")
 			return res, nil
 		}
