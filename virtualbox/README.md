@@ -100,6 +100,6 @@ DJY27pEnl16d
 
 localhost:3000
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/conp13.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con13.png)
 
 
