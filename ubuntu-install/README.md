@@ -1,13 +1,5 @@
 
-# 1.0 Download Virtual Box Image
-
-url:
-
-user: root - password: ibm123
-
-
-
-# 1.1 - Alternative - install fabric-composer on  Ubuntu 14.04
+# 1.0 Install fabric-composer on  Ubuntu 14.04/16.04
 
 sudo apt-get update
 
