@@ -53,6 +53,9 @@ Choose the composer.vdi file from the ComposerVM directory on your computer.
 
 Passsword is  **ibm123**
 
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con6.png)
+
+
 ### 3.7 - Stop HYPERLEDGER
 
 ### 3.8 - Start HYPERLEDGER
