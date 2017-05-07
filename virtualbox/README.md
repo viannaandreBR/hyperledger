@@ -70,11 +70,28 @@ Passsword is *ibm123*
 
 ### 3.9  START composer-ui
 
+Passsword is *ibm123*
+
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con09.png)
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con10.png)
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con11.png)
+
+
 ### 3.10 Run  composer-rest-client
 
+**FINISH CHANGES TO YOUR PROJECT BEFORE RUNNING THIS***
+
+Webservice parameters:
+
 hlfabric
+
 org.acme.biznet
+
 WebAppAdmin
+
 DJY27pEnl16d
 
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con7.png)
