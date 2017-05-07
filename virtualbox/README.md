@@ -60,12 +60,12 @@ Passsword is  **ibm123**
 
 Passsword is *ibm123*
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con7.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con07.png)
 
 
 ### 3.8 - Start HYPERLEDGER
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con8.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con08.png)
 
 
 ### 3.9  START composer-ui
