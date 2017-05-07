@@ -85,7 +85,7 @@ Click on the settings button on the right corner. Then seclect add new Connectio
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp101.png)
 
 
-Switch to the hlfabric connection
+--->>> Select the **HLFABRIC** connection
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/color105.png)
 
