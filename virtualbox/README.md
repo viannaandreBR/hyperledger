@@ -94,12 +94,12 @@ WebAppAdmin
 
 DJY27pEnl16d
 
-![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con7.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp12.png)
 
 ### 3.11 - TEST your new API
 
 localhost:3000
 
-![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con9.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp13.png)
 
 
