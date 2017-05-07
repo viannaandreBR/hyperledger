@@ -16,13 +16,13 @@ If you don't have VIRTUALBOX installed, download and install it from [here](http
 # 3 - DEVELOPMENT ENVIROMENT SET UP 
 
 
-# 3.1 - Copy Virtual Box Image from pendrive to you local computer
+# 3.1 - Copy VIRTUALBOX Image from pendrive to you local computer
 
 Copy ComposerVM directory from pendrive to your computer.
 
-# 3.2- create VirtualBox VM
+# 3.2- create VIRTUALBOX VM
 
-Click on the "New" button and select a LInux 64 bit VM
+Click on the "New" button and select a Linux 64 bit VM
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con1.png)
 
