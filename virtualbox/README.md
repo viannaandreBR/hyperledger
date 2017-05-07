@@ -23,6 +23,8 @@ Copy ComposerVM directory from pendrive to your computer.
 
 ### 3.2- create VIRTUALBOX VM
 
+Start VIRTUALBOX
+
 Click on the "New" button and select a Linux 64 bit VM
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con1.png)
