@@ -73,11 +73,11 @@ Passsword is *ibm123*
 Passsword is *ibm123*
 
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con09.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp09.png)
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con10.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp10.png)
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con11.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp11.png)
 
 
 ### 3.10 Run  composer-rest-client
