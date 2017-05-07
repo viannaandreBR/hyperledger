@@ -4,7 +4,7 @@
 
 # 1 - IBM BLUEMIX ACCOUNT
 
-If you don't have an IBM Bluemix account create one  
+If you don't have an IBM Bluemix account [create a new account] (https://www.ibm.com/developerworks/community/blogs/941f1004-4e3d-4a4b-87ed-30d8045fde4e/resource/IBM%20Bluemix%20Tutorial%20-%20Creating%20a%20Bluemix%20Account%20v2.0_files/IBMBluemixTutorial-CreatingaBluemixAccountv2.0.pdf?lang=en) . 
 
 # 2 - VIRTUALBOX
 
@@ -13,34 +13,52 @@ Hyperledger development tools will be distributed on a pen drive in a VirtualBox
 If you don't have VIRTUALBOX installed, download and install it from [here](https://www.virtualbox.org/wiki/Downloads) 
 
 
-# Copy Virtual Box Image from pendrive to you local computer
-
-Copy ComposerVM directory from pendrive to your local machine
-
-user: root - password: ibm123
+# 3 - DEVELOPMENT ENVIROMENT SET UP 
 
 
-# create VirtualBox VM
+# 3.1 - Copy Virtual Box Image from pendrive to you local computer
+
+Copy ComposerVM directory from pendrive to your computer.
+
+# 3.2- create VirtualBox VM
 
 Click on the "New" button and select a LInux 64 bit VM
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con1.png)
 
 
-# Memory Setup
+# 3.3 - Memory Setup
 
 If your computer has 8GB RAM or more select 3030 MB, else select 2000 MB 
 
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con2.png)
 
-# stop hypeledger
 
-# start hyperledger
+# 3.4 - Select Hard Disk
 
-# start composer-ui
+Choose the option "Choose Hard Disk File" and click on the select file button
 
-# run composer-rest-client
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con3.png)
 
-run composer-rest-server
+Choose the composer.vdi file from the ComposerVM directory on your computer.
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con4.png)
+
+# 3.5 - Start Composer VM
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con5.png)
+
+# 3.6 - Login
+
+Passsword is  _ibm123
+
+# 3.7 - Stop HYPERLEDGER
+
+# 3.8 - Start HYPERLEDGER
+
+# 3.9  START composer-ui
+
+# 3.10 Run  composer-rest-client
 
 hlfabric
 org.acme.biznet
@@ -49,7 +67,9 @@ DJY27pEnl16d
 
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con7.png)
 
-test yourserverip:3000
+# 3.11 - TEST your new API
+
+localhost:3000
 
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con9.png)
 
