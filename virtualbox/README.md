@@ -94,12 +94,12 @@ WebAppAdmin
 
 DJY27pEnl16d
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp12.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con12.png)
 
 ### 3.11 - TEST your new API
 
 localhost:3000
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp13.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/conp13.png)
 
 
