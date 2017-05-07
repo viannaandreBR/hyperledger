@@ -58,7 +58,15 @@ Passsword is  **ibm123**
 
 ### 3.7 - Stop HYPERLEDGER
 
+Passsword is *ibm123*
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con7.png)
+
+
 ### 3.8 - Start HYPERLEDGER
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con8.png)
+
 
 ### 3.9  START composer-ui
 
