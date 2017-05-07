@@ -87,7 +87,7 @@ Click on the settings button on the right corner. Then seclect add new Connectio
 
 Switch to the hlfabric connection
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp105.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/color105.png)
 
 Enter user and password WebAppAdmin  DJY27pEnl16d
 
