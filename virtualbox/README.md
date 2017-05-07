@@ -75,11 +75,17 @@ Passsword is *ibm123*
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp09.png)
 
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp10.png)
+
 
 ### 3.9  CREATE CONNECTION TO HYPERLEDGER
 
+Click on the settings button on the right corner. Then seclect add new Connection profile and then select "Add" button
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp10.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp101.png)
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp102.png)
+
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp102.png)
 
