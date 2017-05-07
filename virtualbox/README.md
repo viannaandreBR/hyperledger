@@ -4,7 +4,7 @@
 
 # 1 - IBM BLUEMIX ACCOUNT
 
-If you don't have an IBM Bluemix account [create a new account] (https://www.ibm.com/developerworks/community/blogs/941f1004-4e3d-4a4b-87ed-30d8045fde4e/resource/IBM%20Bluemix%20Tutorial%20-%20Creating%20a%20Bluemix%20Account%20v2.0_files/IBMBluemixTutorial-CreatingaBluemixAccountv2.0.pdf?lang=en) . 
+If you don't have an IBM Bluemix account [create a new account](https://www.ibm.com/developerworks/community/blogs/941f1004-4e3d-4a4b-87ed-30d8045fde4e/resource/IBM%20Bluemix%20Tutorial%20-%20Creating%20a%20Bluemix%20Account%20v2.0_files/IBMBluemixTutorial-CreatingaBluemixAccountv2.0.pdf?lang=en) . 
 
 # 2 - VIRTUALBOX
 
