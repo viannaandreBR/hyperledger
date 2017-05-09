@@ -1,6 +1,4 @@
-1. FORK  http://github.com/plucena/learn-chaincode-1/
-
-![fork](https://github.com/plucena/learn-chaincode-1/blob/master/imgs/fork.png)
+1. FORK  https://github.com/IBM-Blockchain/learn-chaincode
 
 
 2. RETRIEVE YOUR BLOCKCHAIN REST URLS (USE CAR LEASE DEPLOY OR CREATE NEW SERVICE)
