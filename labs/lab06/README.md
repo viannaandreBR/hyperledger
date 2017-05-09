@@ -22,14 +22,13 @@ REGISTER
 
 DEPLOY
 ------
- 	http://172.24.14.100:7050/chaincode
 	{
       	"jsonrpc": "2.0",
       	"method": "deploy",
       	"params": {
           "type": 1,
           "chaincodeID": {
-              "path": "https://github.com/YOUR-GIT-ID/learn-chaincode-1/finished"
+              "path": "https://github.com/YOUR-GIT-ID/learn-chaincode/finished"
           },
           "ctorMsg": {
             "function": "init",
@@ -40,10 +39,10 @@ DEPLOY
       	"id": 1
   	}
 
+name:3aeb9793d67968f966f2b093c361c70cdbf7a2813a02f7a5da344386580d3b519899b73003b335c587e3d016d44b54eb7d8030bddddbc3e9abf05db81c20eaef
 
 QUERY
 ------
-	http://172.24.14.100:7050/chaincode
 	{
       	"jsonrpc": "2.0",
      	 "method": "query",
@@ -64,7 +63,6 @@ QUERY
   
 INVOKE
 ------
-	http://172.24.14.100:7050/chaincode
 	{
     	"jsonrpc": "2.0",
    	 "method": "invoke",
@@ -89,7 +87,6 @@ INVOKE
 
 QUERY
 ------
-	http://172.24.14.100:7050/chaincode
 	{
       	"jsonrpc": "2.0",
      	 "method": "query",
