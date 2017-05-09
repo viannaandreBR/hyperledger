@@ -23,6 +23,8 @@ Copy ComposerVM directory from pendrive to your computer.
 
 ### 3.2- create VIRTUALBOX VM
 
+Start VIRTUALBOX
+
 Click on the "New" button and select a Linux 64 bit VM
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con1.png)
@@ -85,9 +87,9 @@ Click on the settings button on the right corner. Then seclect add new Connectio
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp101.png)
 
 
-Switch to the hlfabric connection
+--->>> Select the **HLFABRIC** connection
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/comp105.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/color105.png)
 
 Enter user and password WebAppAdmin  DJY27pEnl16d
 
