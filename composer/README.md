@@ -85,15 +85,7 @@ nohup node exp-server.js&
 
 
 # run composer-rest-client
-
-run composer-rest-server
-
-hlfabric
-org.acme.biznet
-WebAppAdmin
-DJY27pEnl16d
-
-![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con7.png)
+ composer-rest-server -p hlfabric -n org.acme.biznet -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
 test yourserverip:3000
 
