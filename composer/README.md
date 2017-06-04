@@ -29,8 +29,8 @@ sudo pip install docker-compose
 git clone https://github.com/fabric-composer/sample-applications
 
 
+# 2.0 - deploy and run Hyperledger 0.6 dockers
 
-# 2.0 - deploy a project to hyperledger using composer
 
 cd /root/sample-applications/packages/getting-started/scripts/
 
@@ -42,6 +42,9 @@ run local hyperledger
     CONTAINER ID        IMAGE                           COMMAND                  CREATED              STATUS              PORTS                              NAMES
     c717ad115502        hyperledger/fabric-peer         "sh -c 'sleep 5; peer"   About a minute ago   Up About a minute   0.0.0.0:7050-7053->7050-7053/tcp   scripts_vp0_1
     b0962c9a784f        hyperledger/fabric-membersrvc   "membersrvc"             About a minute ago   Up About a minute   0.0.0.0:7054->7054/tcp             scripts_membersrvc_1
+
+
+# 3.0 - deploy a sample project to local hyperledger using composer
 
 run composer ui
 
@@ -59,7 +62,7 @@ enter user info WebAppAdmin DJY27pEnl16d
 
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con.png)
 
-# install hyperledger viewer
+# 4.0 - install hyperledger viewer
 
 *non-root install!!! install as user only*
 
@@ -84,7 +87,7 @@ nohup node exp-server.js&
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con5.png)
 
 
-# run composer-rest-client
+# 5.0 - run composer-rest-client
  composer-rest-server -p hlfabric -n org.acme.biznet -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
 test yourserverip:3000
@@ -92,7 +95,7 @@ test yourserverip:3000
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con9.png)
 
 
-# connect to a Bluemix Hyperledger 0.6 blockchain instance
+# 6.0 - connect to a Bluemix Hyperledger 0.6 blockchain instance
 
 Here's the connection profile that I used to connect to the Bluemix Blockchain service:
 
@@ -209,4 +212,7 @@ You can also get the enrolment ID and enrolment secret to use for Bluemix from t
 One thing to note however is that the Bluemix Blockchain service can be unreliable due to problems with the event hub connection being timed out due to inactivity. When this happens, Composer will terminate and you may see an error. We are awaiting a fix to the hfc (Hyperledger Fabric Client) Node.js module that will correctly handle this error and reconnect as required.
 
 
-# Yeoman CRUD Angular App Generator
+# 7.0 - Yeoman CRUD Angular App Generator
+
+# 8.0 - Run JS BDD tests
+https://medium.com/@mrsimonstone/test-your-blockchain-business-network-using-hyperledger-composer-c8e8f112da08
