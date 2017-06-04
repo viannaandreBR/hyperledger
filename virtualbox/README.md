@@ -105,17 +105,9 @@ Enter user and password WebAppAdmin  DJY27pEnl16d
 
 **FINISH CHANGES TO YOUR PROJECT BEFORE RUNNING THIS***
 
-Webservice parameters:
+Command line:
+composer-rest-server -p hlfabric -n org.acme.biznet -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
-hlfabric
-
-org.acme.biznet
-
-WebAppAdmin
-
-DJY27pEnl16d
-
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/virtualbox/con12.png)
 
 ### 3.11 - TEST your new API
 
