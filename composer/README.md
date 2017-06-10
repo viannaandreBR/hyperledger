@@ -33,10 +33,7 @@ git clone https://github.com/fabric-composer/sample-applications
 
 # 2.0 - deploy and run Hyperledger 0.6 dockers
 
-
-cd /root/sample-applications/packages/getting-started/scripts/
-
-./setup.sh 
+/root/sample-applications/packages/getting-started/scripts/setup.sh 
 
 run local hyperledger
 
