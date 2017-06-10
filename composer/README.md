@@ -45,11 +45,7 @@ run local hyperledger
 
 # 3.0 - deploy a sample project to local hyperledger using composer
 
-run composer ui
-
-nohup composer-ui &
-
-access serverip:8080
+sudo nohup composer-ui -p 80&
 
 select settings
 
