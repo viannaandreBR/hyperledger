@@ -15,6 +15,8 @@ sudo apt-get install -y nodejs
 
 npm install -g hashtable
 
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
 npm install -g composer-cli
 
 npm install -g composer-ui
