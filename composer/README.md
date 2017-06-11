@@ -1,12 +1,11 @@
 
 # 1.0 Install fabric-composer on  Ubuntu 14.04/16.04
 
-install node
+_install node_
+
 curl -sL https://goo.gl/XCpds5 | sh
 
 npm install -g hashtable
-
-sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
 
 npm install -g composer-cli
 
