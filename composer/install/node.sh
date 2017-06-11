@@ -10,3 +10,8 @@ sudo ./node-install
 
 sudo apt-get install -y nodejs
 
+sudo chown -R $(whoami) $(npm config get prefix)/{lib/node_modules,bin,share}
+
+
+
+
