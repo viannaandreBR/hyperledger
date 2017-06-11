@@ -1,3 +1,7 @@
+
+# DEPLOYNG GO CODE ON HYPERLEDGER 0.6 BLUEMIX
+
+
 1. FORK  https://github.com/IBM-Blockchain/learn-chaincode
 
 
