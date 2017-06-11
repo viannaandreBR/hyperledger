@@ -77,6 +77,7 @@ test yourserverip:3000
 
 # deploy a business network file 
 composer archive project
+
 composer deploy network -a /usr/lib/node_modules/composer-rest-server/test/bond-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
 
 # 6.0 - connect to a Bluemix Hyperledger 0.6 blockchain instance
