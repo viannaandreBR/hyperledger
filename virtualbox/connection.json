@@ -1,8 +1,8 @@
 {
     "type": "hlf",
-    "membershipServicesURL": "grpc://169.47.55.104:30004",
-    "peerURL": "grpc://169.47.55.104:30004",
-    "eventHubURL": "grpc://169.47.55.104:31004",
+    "membershipServicesURL": "grpcs://169.47.55.104:30004",
+    "peerURL": "grpcs://169.47.55.104:30004",
+    "eventHubURL": "grpcs://169.47.55.104:31004",
     "keyValStore": "/root/.composer-connection-profiles",
     "deployWaitTime": 300,
     "invokeWaitTime": 30,
