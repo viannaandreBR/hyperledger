@@ -1,0 +1,14 @@
+{
+    "type": "hlf",
+    "membershipServicesURL": "grpc://67.207.83.133:7054",
+    "peerURL": "grpc://67.207.83.133:7051",
+    "eventHubURL": "grpc://67.207.83.133:7053",
+    "keyValStore": "/tmp/keyValStore",
+    "deployWaitTime": 300,
+    "invokeWaitTime": 30,
+    "networks": {
+        "org.acme.biznet": "0ca3673db2ea92f26b7293e22e8be10d6de55f34ca7122ced776d620fa66395d"
+    },
+    "certificate": null,
+    "certificatePath": null
+}
