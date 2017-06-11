@@ -1,17 +1,8 @@
 
 # 1.0 Install fabric-composer on  Ubuntu 14.04/16.04
 
-sudo apt-get update
-
-sudo apt-get -y install build-essential libssl-dev python-pip git
-
-curl -sL https://deb.nodesource.com/setup_6.x > node-install
-
-sudo chmod 777 node-install
-
-sudo ./node-install
-
-sudo apt-get install -y nodejs
+install node
+curl -sL https://goo.gl/XCpds5 | sh
 
 npm install -g hashtable
 
@@ -25,7 +16,7 @@ npm install -g composer-rest-server
 
 hyperledger 0.6 install
 
-curl -sL https://goo.gl/76bvmN| sh
+curl -sL https://goo.gl/76bvmN | sh
 
 # 2.0 - deploy and run Hyperledger 0.6 dockers
 
