@@ -1,0 +1,11 @@
+{
+    "type": "hlf",
+    "membershipServicesURL": "grpc://localhost:7054",
+    "peerURL": "grpc://localhost:7051",
+    "eventHubURL": "grpc://localhost:7053",
+    "keyValStore": "/root/.composer-credentials",
+    "deployWaitTime": "300",
+    "invokeWaitTime": "100",
+    "networks": {
+    }
+}
