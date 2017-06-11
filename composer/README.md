@@ -79,6 +79,10 @@ composer archive project
 
 composer deploy network -a /usr/lib/node_modules/composer-rest-server/test/bond-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
 
+composer-rest-server -p hlfabric -n bond-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
+
+
+
 # 6.0 - connect to a Bluemix Hyperledger 0.6 blockchain instance
 
 Use Bluemix profile connection.json in this repository
