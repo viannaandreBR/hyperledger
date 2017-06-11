@@ -23,13 +23,9 @@ npm install -g composer-ui
 
 npm install -g composer-rest-server
 
+hyperledger 0.6 install
 
-wget -qO- https://get.docker.com/ | sh
-
-sudo pip install docker-compose
-
-git clone https://github.com/fabric-composer/sample-applications
-
+curl -sL https://goo.gl/76bvmN| sh
 
 # 2.0 - deploy and run Hyperledger 0.6 dockers
 
