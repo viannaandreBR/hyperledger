@@ -68,19 +68,22 @@ nohup node exp-server.js&
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con5.png)
 
 
-# 5.0 - run composer-rest-client
- composer-rest-server -p hlfabric -n org.acme.biznet -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
-
-test yourserverip:3000
 
 
 # deploy a business network file 
-composer archive project
 
-composer deploy network -a /usr/lib/node_modules/composer-rest-server/test/bond-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
 
-composer-rest-server -p hlfabric -n bond-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
+cd marbles-network 
 
+edit marbles
+
+composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna
+ 
+composer deploy network -a /usr/lib/node_modules/composer-rest-server/test/my-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
+
+composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
+
+test yourserverip:3000
 
 
 # 6.0 - connect to a Bluemix Hyperledger 0.6 blockchain instance
