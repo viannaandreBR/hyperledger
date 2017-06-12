@@ -1,5 +1,5 @@
 
-# 1.0 Install fabric-composer on  Ubuntu 14.04/16.04
+# 1.0 Install fabric-composer on  Ubuntu 14.04/16.04 (as root)
 
 _node 6 install_
 
@@ -29,9 +29,9 @@ run local hyperledger
     b0962c9a784f        hyperledger/fabric-membersrvc   "membersrvc"             About a minute ago   Up About a minute   0.0.0.0:7054->7054/tcp             scripts_membersrvc_1
 
 
-# 3.0 - deploy a sample project to local hyperledger using composer
+# 3.0 - deploy a sample project to local hyperledger using composer (as root)
 
-sudo nohup composer-ui -p 80&
+nohup composer-ui -p 80&
 
 select settings
 
@@ -68,6 +68,9 @@ nohup node exp-server.js&
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con5.png)
 
 
+# create network profile (as root)
+
+git clone http://github.com/plucena/hyperledger
 
 
 # deploy a business network file 
@@ -79,7 +82,7 @@ edit marbles
 
 composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna
  
-composer deploy network -a /usr/lib/node_modules/composer-rest-server/test/my-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
+composer deploy network -a /root/hyperledger/marbles-network/dist/my-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
 
 composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
