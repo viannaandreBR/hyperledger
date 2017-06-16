@@ -96,7 +96,7 @@ nohup node exp-server.js&
 
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con5.png)
 
-
+ 
 
 # 4.0 - OPTIONAL - connect to a Bluemix Hyperledger 0.6 blockchain instance
 
