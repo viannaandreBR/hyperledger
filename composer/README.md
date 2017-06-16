@@ -43,7 +43,7 @@ Access http://localhost or http://yourip on your favourite web browser
 
 3.2.7 - deploy
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/select.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/code.png)
 
 3.2.8 - create web service 
 
