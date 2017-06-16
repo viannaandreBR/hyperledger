@@ -19,6 +19,8 @@ curl -sL https://goo.gl/76bvmN | sh
 
 3.1 curl -sL https://goo.gl/Jq2uVP | sh
 
+Access http://localhost or http://yourip on your favourite web browser
+
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/composer-ui.png)
 
 3.2 Create a connection Profile on Composer-UI
