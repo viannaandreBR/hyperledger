@@ -1,0 +1,54 @@
+/**
+ * Defines a data model for a marble trading network
+ */
+namespace com.ibm.agritech
+
+enum Procuct_Type {
+  o SOYBEAN
+  o CORN
+  o SUGAR
+} 
+
+
+participant Transporter identified by Trucker_Licence {
+  o String Trucker_Name
+  o String Trucker_Licence
+  o String Truck_Freight_Forwarder
+  o String Truck_Plate  
+}
+
+
+asset Product_Warehouse_Lot identified by Invoice_Number {
+  o String Invoice_Number
+  o String Producer
+  o Procuct_Type procuct
+  --> Transporter truck
+  o String Warehouse
+  o String Notes
+  o Double Total_Weight
+  o Double Total_Loss
+}
+
+asset Extrinsic_Analysis identified by Invoice_Number {
+    o String Invoice_Number
+    o DateTime date
+    --> Product_Warehouse_Lot cargo
+    o String Equiment_ID
+    o String Moisture
+    o String Broken
+    o String Greenish
+    o String Damaged
+}
+
+asset Intrinsic_Analysis identified by Invoice_Number {
+    o String Invoice_Number
+    o String Equiment_ID
+    o DateTime date
+    --> Product_Warehouse_Lot cargo
+}
+
+//transaction TradeMarble identified by transactionId {
+//  o String transactionId
+//  --> Marble marble
+//  --> Player newOwner
+//}
