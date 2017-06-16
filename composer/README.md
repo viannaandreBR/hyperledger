@@ -49,9 +49,9 @@ curl -sL https://goo.gl/76bvmN | sh
 
 5.1 mkdir -r /root/.composer-connection-profiles/hlfabric
 
-4.2 cd -r /root/.composer-connection-profiles/hlfabric
+5.2 cd -r /root/.composer-connection-profiles/hlfabric
 
-4.3 cp /root/marbles-network/connection.json  /root/.composer-connection-profiles/hlfabric
+5.3 cp /root/marbles-network/connection.json  /root/.composer-connection-profiles/hlfabric
 
 
 6. deploy using command line
