@@ -67,7 +67,7 @@ curl -sL https://goo.gl/76bvmN | sh
 6.5 composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
 
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/rest.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/rest2.png)
 
 
 ==================================
