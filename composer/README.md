@@ -1,9 +1,5 @@
-
-REQUIREMENTS UBUNTU 14.04/16/04 -> NATIVE OR VIRTUALBOX
-=========================================================
-
-
 # 1.0 Install fabric-composer on  Ubuntu 14.04/16.04 (as root)
+=========================================================
 
 _node 6 install_
 
@@ -38,18 +34,19 @@ nohup composer-ui -p 80&
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/composer-ui.png)
 
+Create a connection Profile on Composer-UI
 
-# 2.0 - deploy a sample project to local hyperledger using composer (as root)
+select settings button (right corner)
 
-select settings
+add new connection  *USE YOUR IP* and then switch to hlfabric profile
 
-add new connection *USE YOUR IP* and then switch to hlfabric profile
-
-![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con2.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/profile.png)
 
 enter user info WebAppAdmin DJY27pEnl16d
 
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con.png)
+
+
 
 
 # 4.0 - install hyperledger viewer
