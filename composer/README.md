@@ -56,12 +56,17 @@ composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl1
 
 1. Download Visual Studio Code - https://code.visualstudio.com/
 
-Install Hyperledger Extension
+2. Install Hyperledger Extension
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/ext.png)
 
 
-git clone http://github.com/plucena/marbles-network
+3. git clone http://github.com/plucena/marbles-network
 
-Open marbles-network project and  edit it
+4. Open marbles-network project and  edit it
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/marbles.png)
+
 
 Deploy using command line
 
