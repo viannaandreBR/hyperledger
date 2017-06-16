@@ -25,15 +25,17 @@ Create a connection Profile on Composer-UI
 
 select settings button (right corner)
 
-add new connection  *USE YOUR IP* and then switch to hlfabric profile
+add new connection  *USE YOUR IP* 
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/profile.png)
 
 enter user info WebAppAdmin DJY27pEnl16d
 
-![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con.png)
+![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/password.png)
 
+switch to hlfabric profile
 
+![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/select.png)
 
 
 # 4.0 - install hyperledger viewer
