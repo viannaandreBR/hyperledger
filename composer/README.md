@@ -5,23 +5,10 @@ _node 6 install_
 
 curl -sL https://goo.gl/XCpds5 | sh
 
-npm install -g hashtable
-
-npm install -g composer-cli
-
-npm install -g composer-ui
-
-npm install -g composer-rest-server
-
 _hyperledger 0.6 install_
 
 curl -sL https://goo.gl/76bvmN | sh
 
-# 2.0 - deploy and run Hyperledger 0.6 dockers
-
-/root/sample-applications/packages/getting-started/scripts/setup.sh 
-
-run local hyperledger
 
     docker ps
     CONTAINER ID        IMAGE                           COMMAND                  CREATED              STATUS              PORTS                              NAMES
@@ -29,9 +16,24 @@ run local hyperledger
     b0962c9a784f        hyperledger/fabric-membersrvc   "membersrvc"             About a minute ago   Up About a minute   0.0.0.0:7054->7054/tcp             scripts_membersrvc_1
 
 
-# 3.0 - deploy a sample project to local hyperledger using composer (as root)
+npm install -g hashtable
+
+cd /root
+
+wget http://67.207.83.133/composer.zip
+
+unzip composer.zip
+
+ln -s /root/node_modules/composer-rest-server/cli.js  /usr/bin/composer-rest-server
+
+ln -s /root/node_modules/composer-cli/cli.js  /usr/bin/composer-cli
+
+ln -s /root/node_modules/composer-cli/cli.js  /usr/bin/composer-cli
 
 nohup composer-ui -p 80&
+
+
+# 2.0 - deploy a sample project to local hyperledger using composer (as root)
 
 select settings
 
@@ -42,6 +44,7 @@ add new connection *USE YOUR IP* and then switch to hlfabric profile
 enter user info WebAppAdmin DJY27pEnl16d
 
 ![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/con.png)
+
 
 # 4.0 - install hyperledger viewer
 
