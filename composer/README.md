@@ -1,4 +1,4 @@
-#1.0 -Install fabric-composer on  Ubuntu 14.04/16.04 (as root)
+#1 - Install fabric-composer on  Ubuntu 14.04/16.04 (as root)
 =========================================================
 
 1. _node 6 install_
