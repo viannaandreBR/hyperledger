@@ -1,11 +1,11 @@
 # 1.0 Install fabric-composer on  Ubuntu 14.04/16.04 (as root)
 =========================================================
 
-_node 6 install_
+* _node 6 install_
 
 curl -sL https://goo.gl/XCpds5 | sh
 
-_hyperledger 0.6 install_
+* _hyperledger 0.6 install_
 
 curl -sL https://goo.gl/76bvmN | sh
 
@@ -15,6 +15,7 @@ curl -sL https://goo.gl/76bvmN | sh
     c717ad115502        hyperledger/fabric-peer         "sh -c 'sleep 5; peer"   About a minute ago   Up About a minute   0.0.0.0:7050-7053->7050-7053/tcp   scripts_vp0_1
     b0962c9a784f        hyperledger/fabric-membersrvc   "membersrvc"             About a minute ago   Up About a minute   0.0.0.0:7054->7054/tcp             scripts_membersrvc_1
 
+* _composer install_
 
 curl -sL https://goo.gl/Jq2uVP | sh
 
