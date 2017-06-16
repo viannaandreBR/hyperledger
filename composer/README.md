@@ -62,7 +62,7 @@ curl -sL https://goo.gl/76bvmN | sh
 
 6.3 composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna
  
-6.4 composer deploy network -a /root/hyperledger/marbles-network/dist/my-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
+6.4 composer deploy network -a /root/marbles-network/dist/my-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
 
 6.5 composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
