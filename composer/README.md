@@ -23,38 +23,6 @@ curl -sL https://goo.gl/76bvmN | sh
 
 3.2 npm install -g composer-rest-server
 
-3.3 npm install -g composer-ui
-
-
-Access http://localhost or http://yourip on your favourite web browser
-
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/composer-ui.png)
-
-3.2 Create hlfabric Connection Profile 
-
-3.2.2 select settings button (right corner)
-
-3.2.3 add new connection  *USE YOUR IP* 
-
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/profile.png)
-
-3.2.4 enter user info WebAppAdmin DJY27pEnl16d
-
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/password.png)
-
-3.2.5  switch to hlfabric profile
-
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/select.png)
-
-3.2.6 - create your own Assets, 
-
-3.2.7 - deploy
-
-![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/code.png)
-
-3.2.8 - create web service 
-
-composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
 
 
@@ -70,22 +38,36 @@ composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl1
 
 3. git clone http://github.com/plucena/marbles-network
 
+
 4. Open marbles-network project and  edit it
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/marbles.png)
 
 
-Deploy using command line
 
-cd marbles-network
+5. create a connection profile
 
-composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna
+5.1 mkdir -r /root/.composer-connection-profiles/hlfabric
+
+4.2 cd -r /root/.composer-connection-profiles/hlfabric
+
+4.3 cp /root/marbles-network/connection.json  /root/.composer-connection-profiles/hlfabric
+
+
+6. deploy using command line
+
+6.1 cd /root/marbles-network
+
+6.2 mkdir /root/marbles-network/dist
+
+6.3 composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna
  
-composer deploy network -a /root/hyperledger/marbles-network/dist/my-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
+6.4 composer deploy network -a /root/hyperledger/marbles-network/dist/my-network.bna -p hlfabric -i  WebAppAdmin -s DJY27pEnl16d
 
-composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
+6.5 composer-rest-server -p hlfabric -n marbles-network -i WebAppAdmin -s DJY27pEnl16d -N never -P 3000 -S false
 
-test yourserverip:3000
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/rest.png)
 
 
 ==================================
