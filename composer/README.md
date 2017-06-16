@@ -31,11 +31,11 @@ add new connection  *USE YOUR IP*
 
 enter user info WebAppAdmin DJY27pEnl16d
 
-![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/password.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/password.png)
 
 switch to hlfabric profile
 
-![](https://raw.githubusercontent.com/plucena/fabric-composer-install/master/select.png)
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/select.png)
 
 
 # 4.0 - install hyperledger viewer
