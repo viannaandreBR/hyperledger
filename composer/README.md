@@ -17,7 +17,14 @@ curl -sL https://goo.gl/76bvmN | sh
 
 3. _composer install_
 
-3.1 curl -sL https://goo.gl/Jq2uVP | sh
+3.1 npm install -g hashtable
+
+3.2 npm install -g composer-cli
+
+3.2 npm install -g composer-rest-server
+
+3.3 npm install -g composer-ui
+
 
 Access http://localhost or http://yourip on your favourite web browser
 
