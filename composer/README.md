@@ -1,4 +1,8 @@
 
+REQUIREMENTS UBUNTU 14.04/16/04 -> NATIVE OR VIRTUALBOX
+=========================================================
+
+
 # 1.0 Install fabric-composer on  Ubuntu 14.04/16.04 (as root)
 
 _node 6 install_
@@ -31,6 +35,8 @@ ln -s /root/node_modules/composer-cli/cli.js  /usr/bin/composer-cli
 ln -s /root/node_modules/composer-ui/cli.js  /usr/bin/composer-ui
 
 nohup composer-ui -p 80&
+
+![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/composer-ui.png)
 
 
 # 2.0 - deploy a sample project to local hyperledger using composer (as root)
