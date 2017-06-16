@@ -23,7 +23,7 @@ Access http://localhost or http://yourip on your favourite web browser
 
 ![](https://raw.githubusercontent.com/plucena/hyperledger/master/composer/composer-ui.png)
 
-3.2 Create a connection Profile on Composer-UI
+3.2 Create hlfabric Connection Profile 
 
 3.2.2 select settings button (right corner)
 
