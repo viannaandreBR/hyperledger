@@ -2,14 +2,14 @@
 # DEPLOYNG GO CODE ON HYPERLEDGER 0.6 BLUEMIX
 
 
-1. FORK  https://github.com/IBM-Blockchain/learn-chaincode
+1. FORK  https://github.com/plucena/learn-chaincode
 
 
-2. RETRIEVE YOUR BLOCKCHAIN REST URLS (USE CAR LEASE DEPLOY OR CREATE NEW SERVICE)
+2. RETRIEVE YOUR BLOCKCHAIN REST URLS FROM BLUEMIX SERVICE
 
-![go1](https://github.com/plucena/smartcontracts/blob/master/labs/lab06/img/img1.png)
+![go1](https://github.com/plucena/hyperledger/blob/master/labs/lab06/img/img1.png)
 
-![go2](https://github.com/plucena/smartcontracts/blob/master/labs/lab06/img/img2.png)
+![go2](https://github.com/plucena/hyperledger/blob/master/labs/lab06/img/img2.png)
 
 
 FOR THE NEXT EXAMPLES USE YOUR BLOCKCHAIN URL!
