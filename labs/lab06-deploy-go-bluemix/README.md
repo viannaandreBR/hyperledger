@@ -7,9 +7,9 @@
 
 2. RETRIEVE YOUR BLOCKCHAIN REST URLS FROM BLUEMIX SERVICE
 
-![go1](https://github.com/plucena/hyperledger/blob/master/labs/lab06/img/img1.png)
+![go1](https://github.com/plucena/hyperledger/blob/master/labs/lab06-deploy-go-bluemix/img/img1.png)
 
-![go2](https://github.com/plucena/hyperledger/blob/master/labs/lab06/img/img2.png)
+![go2](https://github.com/plucena/hyperledger/blob/master/labs/lab06-deploy-go-bluemix/img/img2.png)
 
 
 FOR THE NEXT EXAMPLES USE YOUR BLOCKCHAIN URL!
