@@ -20,6 +20,9 @@ You will need to install the Composer Development Environment or work with Compo
     npm install -g composer-cli@0.7.5
     npm install -g composer-rest-server@0.7.5
 
+## Generate a bna file
+
+ composer archive create --sourceType dir --sourceName . -a ./dist/my-network.bna
 
 You will also need access to a Bluemix HSBN V1 Service.  (This may be the most challenging part of this exercise ;-)  You can register for an account at Bluemix.net and you can create a service via the [Bluemix Blockchain Service](https://console.ng.bluemix.net/catalog/services/blockchain?env_id=ibm:yp:us-south).
 
