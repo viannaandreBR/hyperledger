@@ -1,3 +1,15 @@
+# Install Composer 0.7.5
+
+     curl -O https://raw.githubusercontent.com/hyperledger/composer-sample-applications/master/packages/getting-started/scripts/prereqs-ubuntu.sh
+
+    chmod u+x prereqs-ubuntu.sh
+
+    ./prereqs-ubuntu.sh
+    
+    npm install -g composer-cli@0.7.5
+    npm install -g composer-rest-server@0.7.5
+
+
 # Deploying Hyperledger Composer Business Network to HSBN v1 Beta on Bluemix
 
 This guide will help you deploy your Hyperledger Composer Business Network to an HSBN v1 Beta . It will show you how you can deploy your business network archive (.bna) file to the HSBN v1 Beta.  Note: That these directions are applicable for the current version of Hyperledger fabric supported by HSBN v1 and that this is subject to change.
