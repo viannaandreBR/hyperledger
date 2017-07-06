@@ -1,13 +1,3 @@
-# Install Composer 0.7.5
-
-     curl -O https://raw.githubusercontent.com/hyperledger/composer-sample-applications/master/packages/getting-started/scripts/prereqs-ubuntu.sh
-
-    chmod u+x prereqs-ubuntu.sh
-
-    ./prereqs-ubuntu.sh
-    
-    npm install -g composer-cli@0.7.5
-    npm install -g composer-rest-server@0.7.5
 
 
 # Deploying Hyperledger Composer Business Network to HSBN v1 Beta on Bluemix
@@ -18,7 +8,18 @@ To develop your business network archive please refer to the **Developing Busine
 
 ## Requirements
 
-You will need to install the Composer Development Environment or work with Composer Playground to create the required business network archive (.bna) file.  You can read about installation here: [Installing Hyperledger Composer](https://hyperledger.github.io/composer/installing/installing-index.html).
+You will need to install the Composer Development Environment or work with Composer Playground to create the required business network archive (.bna) file.  
+
+
+     curl -O https://raw.githubusercontent.com/hyperledger/composer-sample-applications/master/packages/getting-started/scripts/prereqs-ubuntu.sh
+
+    chmod u+x prereqs-ubuntu.sh
+
+    ./prereqs-ubuntu.sh
+    
+    npm install -g composer-cli@0.7.5
+    npm install -g composer-rest-server@0.7.5
+
 
 You will also need access to a Bluemix HSBN V1 Service.  (This may be the most challenging part of this exercise ;-)  You can register for an account at Bluemix.net and you can create a service via the [Bluemix Blockchain Service](https://console.ng.bluemix.net/catalog/services/blockchain?env_id=ibm:yp:us-south).
 
